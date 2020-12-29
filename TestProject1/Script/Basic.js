@@ -20,8 +20,9 @@ Given("I am logged in Ingenta Commercial Application", function Login(){
 });
 
 AfterScenario(function (scenario){
- Sys.Process("Aptify Shell").Terminate();
+// Sys.Process("Aptify Shell").Terminate();
 // VideoRecorder.Stop();
+VideoRecorder.Stop();
 })
 
 When("I click on Sales & Marketing", function clickSalesAndMarketing(){

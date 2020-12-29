@@ -20,7 +20,7 @@ Given("I am logged in Ingenta Commercial Application", function Login(){
 });
 
 AfterScenario(function (scenario){
- Sys.Process("Aptify Shell").Terminate();
+// Sys.Process("Aptify Shell").Terminate();
 // VideoRecorder.Stop();
 })
 
@@ -36,8 +36,8 @@ When("I click on Product Management", function clickProductManagement(){
   Aliases.Aptify_Shell.AptifyShellForm.WindowDockingArea1.DockableWindow1.aptifyTree.tvwMain.DblClickItem("advance> Home|Product Management");
 });
 
-When("I click on Customer Service", function clickCustomerService (){
-  Aliases.Aptify_Shell.AptifyShellForm.WindowDockingArea2.DockableWindow2.aptifyTree.tvwMain.ClickItem("advance> Home|Customer Services");
+When("I click on Customer Service", function clickCustomerService(){
+  Aliases.Aptify_Shell.AptifyShellForm.WinFormsObject("WindowDockingArea2").WinFormsObject("DockableWindow2").WinFormsObject("aptifyTree").WinFormsObject("tvwMain").ClickItem("advance> Home|Customer Services");
 });
 
 Then("I click on Customer Service", function (){
