@@ -1,0 +1,107 @@
+﻿When("I click on Find Customer", function (){
+  throw new NotImplementedError();
+});
+
+When("I open a company information panel for {arg}", function (param1){
+  throw new NotImplementedError();
+});
+
+When("I click on Profile Tab", function (){
+  throw new NotImplementedError();
+});
+
+When("I click on Marketing Tab", function (){
+  throw new NotImplementedError();
+});
+
+When("I click on Interests Tab", function (){
+  throw new NotImplementedError();
+});
+
+When("I click on New to open New Companies Interests Record", function (){
+  throw new NotImplementedError();
+});
+
+When("I select Interest Type {arg}", function (param1){
+  throw new NotImplementedError();
+});
+
+When("I check the Always Supply checkbox", function (){
+  throw new NotImplementedError();
+});
+
+When("I enter Customer Reference {arg}{arg}{arg}", function (param1, param2, param3){
+  throw new NotImplementedError();
+});
+
+When("I enter Valid From Today's date", function (){
+  throw new NotImplementedError();
+});
+
+When("I click on Criteria Tab", function (){
+  throw new NotImplementedError();
+});
+
+When("I enter Product Series {arg}", function (param1){
+  throw new NotImplementedError();
+});
+
+When("I click on General tab", function (){
+  throw new NotImplementedError();
+});
+
+When("I click Save and Close Form", function (){
+  throw new NotImplementedError();
+});
+
+When("I open the Series record", function (){
+  throw new NotImplementedError();
+});
+
+Then("Name frame should display the product series starting with Ser:", function (){
+  throw new NotImplementedError();
+});
+
+Then("I click Save and Close Form", function (){
+  throw new NotImplementedError();
+});
+
+Then("I click on New to open New Companies Interests Record", function (){
+  throw new NotImplementedError();
+});
+
+Then("I select Interest Type {arg}", function (param1){
+  throw new NotImplementedError();
+});
+
+Then("I click on Criteria Tab", function (){
+  throw new NotImplementedError();
+});
+
+Then("I enter an Author {arg}", function (param1){
+  throw new NotImplementedError();
+});
+
+Then("I click on new Interest Classifications Record", function (){
+  throw new NotImplementedError();
+});
+
+Then("I select Classification Type  {arg}", function (param1){
+  throw new NotImplementedError();
+});
+
+Then("I enter Classification Code {arg}", function (param1){
+  throw new NotImplementedError();
+});
+
+Then("I click Ok", function (){
+  throw new NotImplementedError();
+});
+
+Then("I open the Author record", function (){
+  throw new NotImplementedError();
+});
+
+Then("Name frame should display the author name starting with Aut:", function (){
+  throw new NotImplementedError();
+});

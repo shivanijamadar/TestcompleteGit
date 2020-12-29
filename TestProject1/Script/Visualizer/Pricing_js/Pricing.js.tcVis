@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{285C46C5-810D-49F9-B4A7-7CBFCF393091}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1039" kind="0" dateTime="44120.3095949074" objectName="Aliases.Aptify_Shell.FormTemplateForm.PTProductPrices_Form.PTProductPrices_Tabs.tabMain.PTProductPrices_Tabs_General.PTProductPrices_Tabs_General.PTProductPrices_Tabs_ConfigTabs.tabMain.PTProductPrices_Tabs_ConfigTabs_ApplicableTo.PTProductPrices_Tabs_ConfigTabs_ApplicableTo.PTProductPrices_Tabs_ConfigTabs_ApplicableTo_PriceCategoryID.LookupSearchCombo" objectLeft="667" objectTop="432" objectRight="925" objectBottom="452" clickPointX="855" clickPointY="441" imageFileName="tcvi20593159394641.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{59086609-5180-41E1-866E-66977651966E}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1859" kind="0" dateTime="44120.5606365741" objectName="Aliases.Aptify_Shell.GenericWizardForm.WizPanels_431.PTCustomerWizard_AddressInformation.PTCustomerWizard_AddressControl.AddressCustomerWizard.AddressCustomerWizard_AddressControl.groupBox2.aptifyCheckBoxManualEdit.chkInternal" objectLeft="708" objectTop="453" objectRight="801" objectBottom="469" clickPointX="714" clickPointY="458" imageFileName="tcvi1118296359754800.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1860" kind="0" dateTime="44120.5606712963" objectName="Aliases.Aptify_Shell.LocalizedMsgBox.UltraGroupBox1.TableLayoutPanel1.btnOne" objectLeft="192" objectTop="114" objectRight="272" objectBottom="135" clickPointX="231" clickPointY="128" imageFileName="tcvi1118299562754801.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2168" kind="0" dateTime="44120.5503125" objectName="Aliases.Aptify_Shell.LocalizedMsgBox.UltraGroupBox1.TableLayoutPanel1.btnOne" objectLeft="192" objectTop="114" objectRight="272" objectBottom="135" clickPointX="254" clickPointY="127" imageFileName="tcvi11174046871085800.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

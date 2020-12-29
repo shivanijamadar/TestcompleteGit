@@ -1,0 +1,3311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 52">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on New icon from Identifiers table"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="date" type="D" value="44102.5542410301"/>
+		</Node>
+		<Node name="message 103">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5132106713"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="262"/>
+					<Prp name="object bottom" type="I" value="634"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="568"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage58.png"/>
+					<Prp name="object left" type="I" value="305"/>
+					<Prp name="click point x" type="I" value="637"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="601"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Details_Description.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="103"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="102"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (332, 33) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Details_Description.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.Details.Description&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="262"/>
+			<Prp name="date" type="D" value="44102.5548787847"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5116380903"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object bottom" type="I" value="254"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="233"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object left" type="I" value="214"/>
+					<Prp name="click point x" type="I" value="251"/>
+					<Prp name="object right" type="I" value="288"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="243"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Advance_Startup_1.LoginForm.cmdOK"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Advance_Startup_1.LoginForm.cmdOK&#xA;(Sys.Process(&quot;Advance Startup 1&quot;).WinFormsObject(&quot;LoginForm&quot;).WinFormsObject(&quot;cmdOK&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="date" type="D" value="44102.5533058333"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5116250463"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="201"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="180"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object left" type="I" value="103"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="343"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Advance_Startup_1.LoginForm.gbTrusted.txtPassword"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The value of the IngentaCommercialApplication.TestProject.Password variable was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Advance_Startup_1.LoginForm.gbTrusted.txtPassword&#xA;(Sys.Process(&quot;Advance Startup 1&quot;).WinFormsObject(&quot;LoginForm&quot;).WinFormsObject(&quot;gbTrusted&quot;).WinFormsObject(&quot;txtPassword&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="date" type="D" value="44102.5532925926"/>
+		</Node>
+		<Node name="message 35">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5123332986"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="192"/>
+					<Prp name="object bottom" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="95"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="object left" type="I" value="285"/>
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="object right" type="I" value="488"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="105"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_PTProductDimensions_DimensionGroupID.txtLink"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="34"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (101, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_PTProductDimensions_DimensionGroupID.txtLink&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.PTProductDimensions.DimensionGroupID&quot;).WinFormsObject(&quot;txtLink&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="192"/>
+			<Prp name="date" type="D" value="44102.5540013542"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 84">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="44102.5018055556"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="319"/>
+					<Prp name="object bottom" type="I" value="57"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi1599543531169921.png"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="click point x" type="I" value="46"/>
+					<Prp name="object right" type="I" value="1022"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="44"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.FormTemplateForm.datEntity.AptifyDataControl_Fill_Panel.zAptifyDataControl_Fill_Panel_Toolbars_Dock_Area_Top"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="319"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage51_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5129599769"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="319"/>
+					<Prp name="object bottom" type="I" value="57"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage51.png"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="click point x" type="I" value="43"/>
+					<Prp name="object right" type="I" value="1022"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="44"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.FormTemplateForm.datEntity.AptifyDataControl_Fill_Panel.zAptifyDataControl_Fill_Panel_Toolbars_Dock_Area_Top"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="84"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The bar item was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="83"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.FormTemplateForm.datEntity.AptifyDataControl_Fill_Panel.zAptifyDataControl_Fill_Panel_Toolbars_Dock_Area_Top.wItems.Item(&quot;Data Form&quot;).Items.Item(&quot;Save Record and Close Form&quot;)&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;FormTemplateForm&quot;).WinFormsObject(&quot;datEntity&quot;).WinFormsObject(&quot;AptifyDataControl_Fill_Panel&quot;).WinFormsObject(&quot;_AptifyDataControl_Fill_Panel_Toolbars_Dock_Area_Top&quot;).wItems.Item(&quot;Data Form&quot;).Items.Item(&quot;Save Record and Close Form&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="319"/>
+			<Prp name="date" type="D" value="44102.5546400926"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter Author name &quot;Authors&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="42"/>
+			<Prp name="date" type="D" value="44102.5539686806"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5115871759"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="176"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="155"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object left" type="I" value="103"/>
+					<Prp name="click point x" type="I" value="223"/>
+					<Prp name="object right" type="I" value="343"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="165"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Advance_Startup_1.LoginForm.gbTrusted.txtUserName"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (120, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Advance_Startup_1.LoginForm.gbTrusted.txtUserName&#xA;(Sys.Process(&quot;Advance Startup 1&quot;).WinFormsObject(&quot;LoginForm&quot;).WinFormsObject(&quot;gbTrusted&quot;).WinFormsObject(&quot;txtUserName&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="date" type="D" value="44102.5532548843"/>
+		</Node>
+		<Node name="message 121">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="121"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on Save Record and Close Form from product information panel"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="73"/>
+			<Prp name="date" type="D" value="44102.5551530903"/>
+		</Node>
+		<Node name="message 108">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="108"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property value &quot;20&quot; equals &quot;20&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="107"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="309"/>
+			<Prp name="date" type="D" value="44102.5549426273"/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.512288912"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="object bottom" type="I" value="737"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="716"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="object left" type="I" value="546"/>
+					<Prp name="click point x" type="I" value="586"/>
+					<Prp name="object right" type="I" value="626"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="726"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizMain.btnNext"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizMain.btnNext&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizMain&quot;).WinFormsObject(&quot;btnNext&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="date" type="D" value="44102.5539569676"/>
+		</Node>
+		<Node name="message 67">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.512783912"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="234"/>
+					<Prp name="object bottom" type="I" value="183"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage47.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="272"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.DropDownForm.ComboDropDownControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 'Fiction' was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="66"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Product_ProductDiscountID.LookupSearchCombo&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Product.ProductDiscountID&quot;).WinFormsObject(&quot;LookupSearchCombo&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="234"/>
+			<Prp name="date" type="D" value="44102.5544635764"/>
+		</Node>
+		<Node name="message 109">
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="109"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Same UnitWeight for base product has been display"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="107"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="311"/>
+			<Prp name="date" type="D" value="44102.5549426273"/>
+		</Node>
+		<Node name="message 81">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="81"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property value &quot;Book- Paperback&quot; equals &quot;Book- Paperback&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="102"/>
+			<Prp name="date" type="D" value="44102.5546249074"/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5122598264"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="179"/>
+					<Prp name="object bottom" type="I" value="634"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="568"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="object left" type="I" value="305"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Details_Description.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="25"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'one line description' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Details_Description.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.Details.Description&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="179"/>
+			<Prp name="date" type="D" value="44102.5539299306"/>
+		</Node>
+		<Node name="message 118">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.513395706"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="288"/>
+					<Prp name="object bottom" type="I" value="400"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage66.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="28"/>
+					<Prp name="object right" type="I" value="274"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="49"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.DropDownPopupForm.treeInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="118"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The tree item was checked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="115"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.DropDownPopupForm.treeInner.wItems.Item(&quot;Paris&quot;)&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;DropDownPopupForm&quot;, &quot;&quot;).WinFormsObject(&quot;treeInner&quot;).wItems.Item(&quot;Paris&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="288"/>
+			<Prp name="date" type="D" value="44102.555086794"/>
+		</Node>
+		<Node name="message 36">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5123464352"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="193"/>
+					<Prp name="object bottom" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="95"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="object left" type="I" value="285"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="488"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_PTProductDimensions_DimensionGroupID.txtLink"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="34"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'Standard UK Paperback' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_PTProductDimensions_DimensionGroupID.txtLink&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.PTProductDimensions.DimensionGroupID&quot;).WinFormsObject(&quot;txtLink&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="193"/>
+			<Prp name="date" type="D" value="44102.5540185764"/>
+		</Node>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.512318912"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="186"/>
+					<Prp name="object bottom" type="I" value="86"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="65"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="object left" type="I" value="626"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_Authors.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'Authors' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_Authors.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData.Authors&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="186"/>
+			<Prp name="date" type="D" value="44102.5539870718"/>
+		</Node>
+		<Node name="message 115">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="115"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I check inventory sites to add multiple sites"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="71"/>
+			<Prp name="date" type="D" value="44102.5549850579"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="When I click on Customer Service"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="date" type="D" value="44102.5536369329"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on New Product from Customer Services"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="date" type="D" value="44102.5536815509"/>
+		</Node>
+		<Node name="message 122">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="44102.5018055556"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="319"/>
+					<Prp name="object bottom" type="I" value="57"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi15995435311699211.png"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="click point x" type="I" value="46"/>
+					<Prp name="object right" type="I" value="1022"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="44"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.FormTemplateForm.datEntity.AptifyDataControl_Fill_Panel.zAptifyDataControl_Fill_Panel_Toolbars_Dock_Area_Top"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="319"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage68_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5135262963"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="319"/>
+					<Prp name="object bottom" type="I" value="57"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage68.png"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="click point x" type="I" value="43"/>
+					<Prp name="object right" type="I" value="1022"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="44"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.FormTemplateForm.datEntity.AptifyDataControl_Fill_Panel.zAptifyDataControl_Fill_Panel_Toolbars_Dock_Area_Top"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="122"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The bar item was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="121"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.FormTemplateForm.datEntity.AptifyDataControl_Fill_Panel.zAptifyDataControl_Fill_Panel_Toolbars_Dock_Area_Top.wItems.Item(&quot;Data Form&quot;).Items.Item(&quot;Save Record and Close Form&quot;)&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;FormTemplateForm&quot;).WinFormsObject(&quot;datEntity&quot;).WinFormsObject(&quot;AptifyDataControl_Fill_Panel&quot;).WinFormsObject(&quot;_AptifyDataControl_Fill_Panel_Toolbars_Dock_Area_Top&quot;).wItems.Item(&quot;Data Form&quot;).Items.Item(&quot;Save Record and Close Form&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="319"/>
+			<Prp name="date" type="D" value="44102.5552070718"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter Title prefix &quot;title&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="date" type="D" value="44102.5538338426"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5115998495"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="176"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="155"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object left" type="I" value="103"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="343"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Advance_Startup_1.LoginForm.gbTrusted.txtUserName"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'User1' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Advance_Startup_1.LoginForm.gbTrusted.txtUserName&#xA;(Sys.Process(&quot;Advance Startup 1&quot;).WinFormsObject(&quot;LoginForm&quot;).WinFormsObject(&quot;gbTrusted&quot;).WinFormsObject(&quot;txtUserName&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="date" type="D" value="44102.5532672222"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5121378241"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="object bottom" type="I" value="300"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="279"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object left" type="I" value="487"/>
+					<Prp name="click point x" type="I" value="729"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="289"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitleWithoutPrefix.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (242, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitleWithoutPrefix.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.PT.Products.Toparea.TitleWithoutPrefix&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="date" type="D" value="44102.5538059143"/>
+		</Node>
+		<Node name="message 95">
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="95"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Same imprint of base product has been display"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="89"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="139"/>
+			<Prp name="date" type="D" value="44102.5548224769"/>
+		</Node>
+		<Node name="message 65">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5127542708"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="229"/>
+					<Prp name="object bottom" type="I" value="669"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="648"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage45.png"/>
+					<Prp name="object left" type="I" value="262"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="330"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_xCopyrightYear.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="64"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'2020' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_xCopyrightYear.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData._xCopyrightYear&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="229"/>
+			<Prp name="date" type="D" value="44102.5544222569"/>
+		</Node>
+		<Node name="message 92">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="92"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property value &quot;title&quot; equals &quot;title&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="89"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="date" type="D" value="44102.5548223264"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter without prefix"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="date" type="D" value="44102.5538033681"/>
+		</Node>
+		<Node name="message 47">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5125071181"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="203"/>
+					<Prp name="object bottom" type="I" value="171"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="150"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage32.png"/>
+					<Prp name="object left" type="I" value="140"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="250"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.SubTypeTemplateForm.PTProductDimensions_Form.PTProductDimensions_Tabs.tabMain.PTProductDimensions_Tabs_General.PTProductDimensions_Tabs_General.PTProductDimensions_Value.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="46"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'20' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.SubTypeTemplateForm.PTProductDimensions_Form.PTProductDimensions_Tabs.tabMain.PTProductDimensions_Tabs_General.PTProductDimensions_Tabs_General.PTProductDimensions_Value.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;SubTypeTemplateForm&quot;).WinFormsObject(&quot;PTProductDimensions.Form&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs&quot;).WinFormsObject(&quot;tabMain&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs.General&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs.General&quot;).WinFormsObject(&quot;PTProductDimensions.Value&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="203"/>
+			<Prp name="date" type="D" value="44102.5541745023"/>
+		</Node>
+		<Node name="message 102">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="102"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter description &quot;one line description&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="66"/>
+			<Prp name="date" type="D" value="44102.5548767824"/>
+		</Node>
+		<Node name="message 98">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5131693981"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="299"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="278"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage55.png"/>
+					<Prp name="object left" type="I" value="300"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="387"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitlePrefix.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="98"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="96"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'^a [Clear]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitlePrefix.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.PT.Products.Toparea.TitlePrefix&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="255"/>
+			<Prp name="date" type="D" value="44102.5548375"/>
+		</Node>
+		<Node name="message 42">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5124190162"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="198"/>
+					<Prp name="object bottom" type="I" value="147"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="121"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+					<Prp name="object left" type="I" value="180"/>
+					<Prp name="click point x" type="I" value="193"/>
+					<Prp name="object right" type="I" value="560"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="134"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Product_Dimensions_SubtypeView.zAptifyControlBase_Toolbars_Dock_Area_Top"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The bar item was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="41"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Product_Dimensions_SubtypeView.zAptifyControlBase_Toolbars_Dock_Area_Top.wItems.Item(&quot;SubType&quot;).Items.Item(&quot;New&quot;)&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Product.Dimensions.SubtypeView&quot;).WinFormsObject(&quot;_AptifyControlBase_Toolbars_Dock_Area_Top&quot;).wItems.Item(&quot;SubType&quot;).Items.Item(&quot;New&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="198"/>
+			<Prp name="date" type="D" value="44102.5540988657"/>
+		</Node>
+		<Node name="message 66">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I select product disount type &quot;Fiction&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="date" type="D" value="44102.5544341204"/>
+		</Node>
+		<Node name="message 83">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="83"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on Save Record and Close Form from product information panel"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="60"/>
+			<Prp name="date" type="D" value="44102.5546251852"/>
+		</Node>
+		<Node name="message 105">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="105"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on Next Button"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="67"/>
+			<Prp name="date" type="D" value="44102.5549044213"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Program Files (x86)\Ingenta\Ingenta Commercial\Ingenta\Advance Startup 1.exe&quot; started."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="The process ID is 19172."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="date" type="D" value="44102.5532215162"/>
+		</Node>
+		<Node name="message 61">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5127135995"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="object bottom" type="I" value="632"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="611"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage42.png"/>
+					<Prp name="object left" type="I" value="261"/>
+					<Prp name="click point x" type="I" value="310"/>
+					<Prp name="object right" type="I" value="360"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="621"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_PublicationDate.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="60"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (49, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_PublicationDate.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData.PublicationDate&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="date" type="D" value="44102.5543812847"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="type" type="I" value="8"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="2 Creating new product with base product"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="date" type="D" value="44102.5532056481"/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I select ONIX Unit &quot;Grams&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="48"/>
+			<Prp name="date" type="D" value="44102.5541862153"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5116122685"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="201"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="180"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object left" type="I" value="103"/>
+					<Prp name="click point x" type="I" value="223"/>
+					<Prp name="object right" type="I" value="343"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="190"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Advance_Startup_1.LoginForm.gbTrusted.txtPassword"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (120, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Advance_Startup_1.LoginForm.gbTrusted.txtPassword&#xA;(Sys.Process(&quot;Advance Startup 1&quot;).WinFormsObject(&quot;LoginForm&quot;).WinFormsObject(&quot;gbTrusted&quot;).WinFormsObject(&quot;txtPassword&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="date" type="D" value="44102.5532799421"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter description &quot;one line description&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="date" type="D" value="44102.5539132176"/>
+		</Node>
+		<Node name="message 112">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5132895833"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="275"/>
+					<Prp name="object bottom" type="I" value="632"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="611"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage62.png"/>
+					<Prp name="object left" type="I" value="261"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="360"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_PublicationDate.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="112"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="110"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_PublicationDate.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData.PublicationDate&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="275"/>
+			<Prp name="date" type="D" value="44102.5549581713"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.51197625"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="object bottom" type="I" value="728"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="97"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="312"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.AptifyShellForm.WindowDockingArea2.DockableWindow2.aptifyTree.tvwMain"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The tree item was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.AptifyShellForm.WindowDockingArea2.DockableWindow2.aptifyTree.tvwMain.wItems.Item(&quot;advance&gt; Home&quot;).Items.Item(&quot;Customer Services&quot;)&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;AptifyShellForm&quot;).WinFormsObject(&quot;WindowDockingArea2&quot;).WinFormsObject(&quot;DockableWindow2&quot;).WinFormsObject(&quot;aptifyTree&quot;).WinFormsObject(&quot;tvwMain&quot;).wItems.Item(&quot;advance&gt; Home&quot;).Items.Item(&quot;Customer Services&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="date" type="D" value="44102.5536576042"/>
+		</Node>
+		<Node name="message 39">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.512381169"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="297"/>
+					<Prp name="object bottom" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="95"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="object left" type="I" value="494"/>
+					<Prp name="click point x" type="I" value="527"/>
+					<Prp name="object right" type="I" value="560"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="105"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_PTProductDimensions_Apply"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (33, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_PTProductDimensions_Apply&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.PTProductDimensions.Apply&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="297"/>
+			<Prp name="date" type="D" value="44102.5540499074"/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.512275"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="180"/>
+					<Prp name="object bottom" type="I" value="634"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="568"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="object left" type="I" value="305"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Details_Description.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="25"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Details_Description.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.Details.Description&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="180"/>
+			<Prp name="date" type="D" value="44102.5539427662"/>
+		</Node>
+		<Node name="message 37">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5123636574"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="194"/>
+					<Prp name="object bottom" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="95"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="object left" type="I" value="285"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="488"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_PTProductDimensions_DimensionGroupID.txtLink"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="34"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_PTProductDimensions_DimensionGroupID.txtLink&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.PTProductDimensions.DimensionGroupID&quot;).WinFormsObject(&quot;txtLink&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="194"/>
+			<Prp name="date" type="D" value="44102.5540354514"/>
+		</Node>
+		<Node name="message 62">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5127265741"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="object bottom" type="I" value="632"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="611"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage43.png"/>
+					<Prp name="object left" type="I" value="261"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="360"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_PublicationDate.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="60"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'28/09/2020' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_PublicationDate.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData.PublicationDate&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="date" type="D" value="44102.5543954398"/>
+		</Node>
+		<Node name="message 89">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="89"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And All the information of the Base product should be reflected under imprint and without prefix field"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="63"/>
+			<Prp name="date" type="D" value="44102.5547279977"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Given I am logged in Ingenta Commercial Application"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="date" type="D" value="44102.5532058333"/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I select Dimension Group &quot;Standard UK Paperback&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="date" type="D" value="44102.5539989815"/>
+		</Node>
+		<Node name="message 32">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5123055324"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="185"/>
+					<Prp name="object bottom" type="I" value="86"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="65"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="object left" type="I" value="626"/>
+					<Prp name="click point x" type="I" value="798"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="75"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_Authors.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (172, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_Authors.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData.Authors&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="185"/>
+			<Prp name="date" type="D" value="44102.5539738542"/>
+		</Node>
+		<Node name="message 57">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5126693056"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="224"/>
+					<Prp name="object bottom" type="I" value="103"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage40.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="400"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.DropDownForm.ComboDropDownControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 'ISBN 13 (Global)' was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="56"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.SubTypeTemplateForm.PTProductIdentifiers_Form.PTProductIdentifiers_Tabs.tabMain.PTProductIdentifiers_Tabs_General.PTProductIdentifiers_Tabs_General.PTProductIdentifiers_OrganizationCodeAllocationsID.LookupSearchCombo&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;SubTypeTemplateForm&quot;).WinFormsObject(&quot;PTProductIdentifiers.Form&quot;).WinFormsObject(&quot;PTProductIdentifiers.Tabs&quot;).WinFormsObject(&quot;tabMain&quot;).WinFormsObject(&quot;PTProductIdentifiers.Tabs.General&quot;).WinFormsObject(&quot;PTProductIdentifiers.Tabs.General&quot;).WinFormsObject(&quot;PTProductIdentifiers.OrganizationCodeAllocationsID&quot;).WinFormsObject(&quot;LookupSearchCombo&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="224"/>
+			<Prp name="date" type="D" value="44102.5543494213"/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I select range &quot;ISBN 13 (Global)&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="52"/>
+			<Prp name="date" type="D" value="44102.5543190741"/>
+		</Node>
+		<Node name="message 68">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I select fulfilment product type &quot;publication&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="date" type="D" value="44102.5544755324"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5121679745"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="163"/>
+					<Prp name="object bottom" type="I" value="299"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="278"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object left" type="I" value="300"/>
+					<Prp name="click point x" type="I" value="343"/>
+					<Prp name="object right" type="I" value="387"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="288"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitlePrefix.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="18"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (43, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitlePrefix.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.PT.Products.Toparea.TitlePrefix&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="163"/>
+			<Prp name="date" type="D" value="44102.5538359607"/>
+		</Node>
+		<Node name="message 41">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on New icon"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="date" type="D" value="44102.5540833565"/>
+		</Node>
+		<Node name="message 120">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5134462384"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="57"/>
+					<Prp name="object bottom" type="I" value="737"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="716"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage67.png"/>
+					<Prp name="object left" type="I" value="909"/>
+					<Prp name="click point x" type="I" value="949"/>
+					<Prp name="object right" type="I" value="989"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="726"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizMain.btnFinish"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="120"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="119"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizMain.btnFinish&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizMain&quot;).WinFormsObject(&quot;btnFinish&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="date" type="D" value="44102.5551142824"/>
+		</Node>
+		<Node name="message 97">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5131564352"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="254"/>
+					<Prp name="object bottom" type="I" value="299"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="278"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage54.png"/>
+					<Prp name="object left" type="I" value="300"/>
+					<Prp name="click point x" type="I" value="343"/>
+					<Prp name="object right" type="I" value="387"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="288"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitlePrefix.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="97"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="96"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (43, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitlePrefix.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.PT.Products.Toparea.TitlePrefix&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="254"/>
+			<Prp name="date" type="D" value="44102.5548243981"/>
+		</Node>
+		<Node name="message 93">
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="93"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Same TitlePrefix of Base product has been display"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="89"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="130"/>
+			<Prp name="date" type="D" value="44102.554822338"/>
+		</Node>
+		<Node name="message 94">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="94"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property value &quot;Reef Books&quot; equals &quot;Reef Books&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="89"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="137"/>
+			<Prp name="date" type="D" value="44102.5548224653"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5122471991"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="178"/>
+					<Prp name="object bottom" type="I" value="634"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="568"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="object left" type="I" value="305"/>
+					<Prp name="click point x" type="I" value="637"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="601"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Details_Description.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="25"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (332, 33) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Details_Description.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.Details.Description&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="178"/>
+			<Prp name="date" type="D" value="44102.5539148727"/>
+		</Node>
+		<Node name="message 88">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5130346991"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="50"/>
+					<Prp name="object bottom" type="I" value="181"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="161"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage53.png"/>
+					<Prp name="object left" type="I" value="392"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="852"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Products_ProductLookupName.txtLink"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="88"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="87"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Products_ProductLookupName.txtLink&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.Products.ProductLookupName&quot;).WinFormsObject(&quot;txtLink&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="date" type="D" value="44102.5547158565"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5120185185"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="396"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="352"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object left" type="I" value="321"/>
+					<Prp name="click point x" type="I" value="376"/>
+					<Prp name="object right" type="I" value="431"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="374"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.AptifyShellForm.pnlDisplay.DashboardManager.AptifyDashLayout.AptifyDashboardArea.DashCtrlWrapper.ButtonBar.UltraButton9"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="11"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (55, 22) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.AptifyShellForm.pnlDisplay.DashboardManager.AptifyDashLayout.AptifyDashboardArea.DashCtrlWrapper.ButtonBar.UltraButton9&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;AptifyShellForm&quot;).WinFormsObject(&quot;pnlDisplay&quot;).WinFormsObject(&quot;DashboardManager&quot;).WinFormsObject(&quot;AptifyDashLayout&quot;, &quot;&quot;, 1).WinFormsObject(&quot;AptifyDashboardArea&quot;, &quot;&quot;, 3).WinFormsObject(&quot;DashCtrlWrapper&quot;, &quot;&quot;, 1).WinFormsObject(&quot;ButtonBar&quot;).WinFormsObject(&quot;UltraButton&quot;, &quot;New Product&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="date" type="D" value="44102.5536871181"/>
+		</Node>
+		<Node name="message 113">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="113"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter copyright year &quot;2020&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="70"/>
+			<Prp name="date" type="D" value="44102.5549704282"/>
+		</Node>
+		<Node name="message 55">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5126265046"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="218"/>
+					<Prp name="object bottom" type="I" value="180"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage38.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="396"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.DropDownForm.ComboDropDownControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 'ISBN 13' was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="54"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.SubTypeTemplateForm.PTProductIdentifiers_Form.PTProductIdentifiers_Tabs.tabMain.PTProductIdentifiers_Tabs_General.PTProductIdentifiers_Tabs_General.PTProductIdentifiers_IdentifierTypeID.LookupSearchCombo&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;SubTypeTemplateForm&quot;).WinFormsObject(&quot;PTProductIdentifiers.Form&quot;).WinFormsObject(&quot;PTProductIdentifiers.Tabs&quot;).WinFormsObject(&quot;tabMain&quot;).WinFormsObject(&quot;PTProductIdentifiers.Tabs.General&quot;).WinFormsObject(&quot;PTProductIdentifiers.Tabs.General&quot;).WinFormsObject(&quot;PTProductIdentifiers.IdentifierTypeID&quot;).WinFormsObject(&quot;LookupSearchCombo&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="218"/>
+			<Prp name="date" type="D" value="44102.5543071412"/>
+		</Node>
+		<Node name="message 80">
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="80"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Same Identifier Type Description has been display on product information panel"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="96"/>
+			<Prp name="date" type="D" value="44102.5546247801"/>
+		</Node>
+		<Node name="message 40">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5124041667"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="298"/>
+					<Prp name="object bottom" type="I" value="135"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="114"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+					<Prp name="object left" type="I" value="101"/>
+					<Prp name="click point x" type="I" value="141"/>
+					<Prp name="object right" type="I" value="181"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="124"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.LocalizedMsgBox.UltraGroupBox1.TableLayoutPanel1.btnTwo"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.LocalizedMsgBox.UltraGroupBox1.TableLayoutPanel1.btnTwo&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;LocalizedMsgBox&quot;).WinFormsObject(&quot;UltraGroupBox1&quot;).WinFormsObject(&quot;TableLayoutPanel1&quot;).WinFormsObject(&quot;btnTwo&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="298"/>
+			<Prp name="date" type="D" value="44102.5540715625"/>
+		</Node>
+		<Node name="message 78">
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="78"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Same oraganisation has been display on product information panel"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="87"/>
+			<Prp name="date" type="D" value="44102.5546246296"/>
+		</Node>
+		<Node name="message 76">
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="76"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Same withoutPrefix has been display"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="78"/>
+			<Prp name="date" type="D" value="44102.5546244792"/>
+		</Node>
+		<Node name="message 119">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="119"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on Finish button"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="72"/>
+			<Prp name="date" type="D" value="44102.5551102778"/>
+		</Node>
+		<Node name="message 79">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="79"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property value &quot;ISBN 13&quot; equals &quot;ISBN 13&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="94"/>
+			<Prp name="date" type="D" value="44102.5546247569"/>
+		</Node>
+		<Node name="message 116">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5133193866"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="285"/>
+					<Prp name="object bottom" type="I" value="683"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="662"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage64.png"/>
+					<Prp name="object left" type="I" value="518"/>
+					<Prp name="click point x" type="I" value="655"/>
+					<Prp name="object right" type="I" value="792"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="672"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_InventorySitesID.dropDownMultiSelect"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="116"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="115"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (137, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_InventorySitesID.dropDownMultiSelect&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData.InventorySitesID&quot;).WinFormsObject(&quot;dropDownMultiSelect&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="285"/>
+			<Prp name="date" type="D" value="44102.5549885185"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on Apply button from dimensions group"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="date" type="D" value="44102.5540472685"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 59">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5126978241"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="213"/>
+					<Prp name="object bottom" type="I" value="314"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="291"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage41.png"/>
+					<Prp name="object left" type="I" value="448"/>
+					<Prp name="click point x" type="I" value="482"/>
+					<Prp name="object right" type="I" value="517"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="302"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.SubTypeTemplateForm.datEntity.AptifyDataControl_Fill_Panel.cmdOK"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="58"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.SubTypeTemplateForm.datEntity.AptifyDataControl_Fill_Panel.cmdOK&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;SubTypeTemplateForm&quot;).WinFormsObject(&quot;datEntity&quot;).WinFormsObject(&quot;AptifyDataControl_Fill_Panel&quot;).WinFormsObject(&quot;cmdOK&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="213"/>
+			<Prp name="date" type="D" value="44102.5543677894"/>
+		</Node>
+		<Node name="message 101">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5131965162"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="155"/>
+					<Prp name="object bottom" type="I" value="300"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="279"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage57.png"/>
+					<Prp name="object left" type="I" value="487"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitleWithoutPrefix.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="101"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="99"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'^a [Clear]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitleWithoutPrefix.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.PT.Products.Toparea.TitleWithoutPrefix&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="155"/>
+			<Prp name="date" type="D" value="44102.5548647106"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter imprint &quot;Reef Books&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="date" type="D" value="44102.5538613889"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.512195544"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="170"/>
+					<Prp name="object bottom" type="I" value="456"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="436"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="object left" type="I" value="302"/>
+					<Prp name="click point x" type="I" value="636"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="446"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProducts_Wizard_Organizations.txtLink"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (334, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProducts_Wizard_Organizations.txtLink&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProducts.Wizard.Organizations&quot;).WinFormsObject(&quot;txtLink&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="170"/>
+			<Prp name="date" type="D" value="44102.553863588"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5121090625"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object bottom" type="I" value="180"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="669"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.DropDownForm.ComboDropDownControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 'Book- Paperback' was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="13"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Details_ProductDetails_ProductSubTypeID.LookupSearchCombo&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.Details.ProductDetails.ProductSubTypeID&quot;).WinFormsObject(&quot;LookupSearchCombo&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="date" type="D" value="44102.5537914931"/>
+		</Node>
+		<Node name="message 106">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.513238206"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="268"/>
+					<Prp name="object bottom" type="I" value="737"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="716"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage60.png"/>
+					<Prp name="object left" type="I" value="546"/>
+					<Prp name="click point x" type="I" value="586"/>
+					<Prp name="object right" type="I" value="626"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="726"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizMain.btnNext"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="106"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="105"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizMain.btnNext&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizMain&quot;).WinFormsObject(&quot;btnNext&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="268"/>
+			<Prp name="date" type="D" value="44102.5549057523"/>
+		</Node>
+		<Node name="message 64">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter copyright year &quot;2020&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="date" type="D" value="44102.554420463"/>
+		</Node>
+		<Node name="message 91">
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="91"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Same withoutPrefix of Base product has been display"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="89"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="121"/>
+			<Prp name="date" type="D" value="44102.5548222106"/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on OK button"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="date" type="D" value="44102.5542265046"/>
+		</Node>
+		<Node name="message 74">
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="74"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Same Title Prefix has been display"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="70"/>
+			<Prp name="date" type="D" value="44102.5546243287"/>
+		</Node>
+		<Node name="message 87">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="87"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter recently created product as Base product"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="62"/>
+			<Prp name="date" type="D" value="44102.5546912037"/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter value &quot;20&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="date" type="D" value="44102.5541732986"/>
+		</Node>
+		<Node name="message 60">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter pubdate"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="date" type="D" value="44102.5543796065"/>
+		</Node>
+		<Node name="message 111">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5132766667"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="273"/>
+					<Prp name="object bottom" type="I" value="632"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="611"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage61.png"/>
+					<Prp name="object left" type="I" value="261"/>
+					<Prp name="click point x" type="I" value="310"/>
+					<Prp name="object right" type="I" value="360"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="621"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_PublicationDate.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="111"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="110"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (49, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_PublicationDate.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData.PublicationDate&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="273"/>
+			<Prp name="date" type="D" value="44102.5549445023"/>
+		</Node>
+		<Node name="message 44">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5124687616"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="244"/>
+					<Prp name="object bottom" type="I" value="180"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage30.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="290"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.DropDownForm.ComboDropDownControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 'Unit weight' was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="43"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.SubTypeTemplateForm.PTProductDimensions_Form.PTProductDimensions_Tabs.tabMain.PTProductDimensions_Tabs_General.PTProductDimensions_Tabs_General.PTProductDimensions_TypeID.LookupSearchCombo&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;SubTypeTemplateForm&quot;).WinFormsObject(&quot;PTProductDimensions.Form&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs&quot;).WinFormsObject(&quot;tabMain&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs.General&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs.General&quot;).WinFormsObject(&quot;PTProductDimensions.TypeID&quot;).WinFormsObject(&quot;LookupSearchCombo&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="244"/>
+			<Prp name="date" type="D" value="44102.5541483796"/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I select Identifier Type &quot;ISBN 13&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="date" type="D" value="44102.554269213"/>
+		</Node>
+		<Node name="message 96">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="96"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I edit Title prefix &quot;Title&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="64"/>
+			<Prp name="date" type="D" value="44102.5548227431"/>
+		</Node>
+		<Node name="message 63">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.512740544"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="object bottom" type="I" value="632"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="611"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage44.png"/>
+					<Prp name="object left" type="I" value="261"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="360"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_PublicationDate.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="60"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_PublicationDate.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData.PublicationDate&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="date" type="D" value="44102.5544086574"/>
+		</Node>
+		<Node name="message 77">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="77"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property value &quot;Reef Books&quot; equals &quot;Reef Books&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="85"/>
+			<Prp name="date" type="D" value="44102.5546246065"/>
+		</Node>
+		<Node name="message 90">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="90"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property value &quot;RaveProduct gmghqjgyr&quot; equals &quot;RaveProduct gmghqjgyr&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="89"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="119"/>
+			<Prp name="date" type="D" value="44102.5548221991"/>
+		</Node>
+		<Node name="message 75">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="75"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property value &quot;RaveProduct gmghqjgyr&quot; equals &quot;RaveProduct gmghqjgyr&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="76"/>
+			<Prp name="date" type="D" value="44102.5546244676"/>
+		</Node>
+		<Node name="message 104">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5132240162"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="264"/>
+					<Prp name="object bottom" type="I" value="634"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="568"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage59.png"/>
+					<Prp name="object left" type="I" value="305"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Details_Description.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="104"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="102"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_Details_Description.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.Details.Description&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="264"/>
+			<Prp name="date" type="D" value="44102.5548926505"/>
+		</Node>
+		<Node name="message 86">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5129857755"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="249"/>
+					<Prp name="object bottom" type="I" value="396"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="352"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage52.png"/>
+					<Prp name="object left" type="I" value="321"/>
+					<Prp name="click point x" type="I" value="376"/>
+					<Prp name="object right" type="I" value="431"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="374"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.AptifyShellForm.pnlDisplay.DashboardManager.AptifyDashLayout.AptifyDashboardArea.DashCtrlWrapper.ButtonBar.UltraButton9"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="86"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="85"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.AptifyShellForm.pnlDisplay.DashboardManager.AptifyDashLayout.AptifyDashboardArea.DashCtrlWrapper.ButtonBar.UltraButton9&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;AptifyShellForm&quot;).WinFormsObject(&quot;pnlDisplay&quot;).WinFormsObject(&quot;DashboardManager&quot;).WinFormsObject(&quot;AptifyDashLayout&quot;, &quot;&quot;, 1).WinFormsObject(&quot;AptifyDashboardArea&quot;, &quot;&quot;, 3).WinFormsObject(&quot;DashCtrlWrapper&quot;, &quot;&quot;, 1).WinFormsObject(&quot;ButtonBar&quot;).WinFormsObject(&quot;UltraButton&quot;, &quot;New Product&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="249"/>
+			<Prp name="date" type="D" value="44102.5546793982"/>
+		</Node>
+		<Node name="message 71">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5128508102"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="44"/>
+					<Prp name="object bottom" type="I" value="737"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="716"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage50.png"/>
+					<Prp name="object left" type="I" value="909"/>
+					<Prp name="click point x" type="I" value="949"/>
+					<Prp name="object right" type="I" value="989"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="726"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizMain.btnFinish"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="71"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="70"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizMain.btnFinish&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizMain&quot;).WinFormsObject(&quot;btnFinish&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="date" type="D" value="44102.5545193171"/>
+		</Node>
+		<Node name="message 72">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="72"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Then product should be displayed with all the information as given during creation of the record"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="59"/>
+			<Prp name="date" type="D" value="44102.5545682523"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5119575231"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object bottom" type="I" value="736"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.AptifyShellForm"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The 'advance&gt; (Rel:OTC 3.3.33.8) - major\major - User1 - NOT LICENSED FOR PRODUCTION USE' window was maximized."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.AptifyShellForm&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;AptifyShellForm&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="date" type="D" value="44102.5536251505"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.512208588"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="171"/>
+					<Prp name="object bottom" type="I" value="456"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="436"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="object left" type="I" value="302"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProducts_Wizard_Organizations.txtLink"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'Reef Books' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProducts_Wizard_Organizations.txtLink&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProducts.Wizard.Organizations&quot;).WinFormsObject(&quot;txtLink&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="171"/>
+			<Prp name="date" type="D" value="44102.5538773264"/>
+		</Node>
+		<Node name="message 99">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="99"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I edit Without prefix field"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="65"/>
+			<Prp name="date" type="D" value="44102.5548494907"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I select &quot;Book- Paperback&quot; from Product Types"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="date" type="D" value="44102.5537414236"/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on OK button"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="53"/>
+			<Prp name="date" type="D" value="44102.5543615857"/>
+		</Node>
+		<Node name="message 85">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="85"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I create new product"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="61"/>
+			<Prp name="date" type="D" value="44102.554651956"/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I select Type from dimension record &quot;Unit weight&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="date" type="D" value="44102.5541107523"/>
+		</Node>
+		<Node name="message 110">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="110"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I enter pubdate &quot;20/03/2020&quot;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="69"/>
+			<Prp name="date" type="D" value="44102.5549429051"/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on Next Button from Create new product wizard"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="date" type="D" value="44102.5539546759"/>
+		</Node>
+		<Node name="message 51">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.512560787"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="213"/>
+					<Prp name="object bottom" type="I" value="349"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="326"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage35.png"/>
+					<Prp name="object left" type="I" value="318"/>
+					<Prp name="click point x" type="I" value="352"/>
+					<Prp name="object right" type="I" value="387"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="337"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.SubTypeTemplateForm.datEntity.AptifyDataControl_Fill_Panel.cmdOK"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="50"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.SubTypeTemplateForm.datEntity.AptifyDataControl_Fill_Panel.cmdOK&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;SubTypeTemplateForm&quot;).WinFormsObject(&quot;datEntity&quot;).WinFormsObject(&quot;AptifyDataControl_Fill_Panel&quot;).WinFormsObject(&quot;cmdOK&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="213"/>
+			<Prp name="date" type="D" value="44102.5542283102"/>
+		</Node>
+		<Node name="message 107">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="107"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And Unit weight for base product should be same for newly created product"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="68"/>
+			<Prp name="date" type="D" value="44102.5549178935"/>
+		</Node>
+		<Node name="message 49">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5125349306"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="209"/>
+					<Prp name="object bottom" type="I" value="83"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage34.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="290"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.DropDownForm.ComboDropDownControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 'Grams' was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="48"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.SubTypeTemplateForm.PTProductDimensions_Form.PTProductDimensions_Tabs.tabMain.PTProductDimensions_Tabs_General.PTProductDimensions_Tabs_General.PTProductDimensions_ONIXUnitID.LookupSearchCombo&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;SubTypeTemplateForm&quot;).WinFormsObject(&quot;PTProductDimensions.Form&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs&quot;).WinFormsObject(&quot;tabMain&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs.General&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs.General&quot;).WinFormsObject(&quot;PTProductDimensions.ONIXUnitID&quot;).WinFormsObject(&quot;LookupSearchCombo&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="209"/>
+			<Prp name="date" type="D" value="44102.5542145949"/>
+		</Node>
+		<Node name="message 73">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="73"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property value &quot;title&quot; equals &quot;title&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="68"/>
+			<Prp name="date" type="D" value="44102.5546243056"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="TestProject1\Scenarios\CreatingProduct\CreateNewProduct.feature"/>
+			<Prp name="unit 1" type="S" value="{D449B06D-75C9-4436-AB12-11E70D946AA8}"/>
+			<Prp name="unit 2" type="S" value="{2999505C-748D-4A56-B5A7-1F85C7E39FDF}"/>
+		</Node>
+		<Node name="message 117">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5133405208"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="287"/>
+					<Prp name="object bottom" type="I" value="400"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage65.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="28"/>
+					<Prp name="object right" type="I" value="274"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="30"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.DropDownPopupForm.treeInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="117"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The tree item was checked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="115"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.DropDownPopupForm.treeInner.wItems.Item(&quot;New York&quot;)&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;DropDownPopupForm&quot;, &quot;&quot;).WinFormsObject(&quot;treeInner&quot;).wItems.Item(&quot;New York&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="287"/>
+			<Prp name="date" type="D" value="44102.5550317014"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5121509028"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="object bottom" type="I" value="300"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="279"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object left" type="I" value="487"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitleWithoutPrefix.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'RaveProduct gmghqjgyr' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitleWithoutPrefix.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.PT.Products.Toparea.TitleWithoutPrefix&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="date" type="D" value="44102.5538219676"/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5122223611"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="172"/>
+					<Prp name="object bottom" type="I" value="456"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="436"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="object left" type="I" value="302"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProducts_Wizard_Organizations.txtLink"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProducts_Wizard_Organizations.txtLink&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProducts.Wizard.Organizations&quot;).WinFormsObject(&quot;txtLink&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="172"/>
+			<Prp name="date" type="D" value="44102.5539014699"/>
+		</Node>
+		<Node name="message 114">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5133047106"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="280"/>
+					<Prp name="object bottom" type="I" value="669"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="648"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage63.png"/>
+					<Prp name="object left" type="I" value="262"/>
+					<Prp name="click point x" type="I" value="296"/>
+					<Prp name="object right" type="I" value="330"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="658"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_xCopyrightYear.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="114"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="113"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (34, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_xCopyrightYear.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData._xCopyrightYear&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="280"/>
+			<Prp name="date" type="D" value="44102.5549731366"/>
+		</Node>
+		<Node name="message 45">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5124935301"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="245"/>
+					<Prp name="object bottom" type="I" value="146"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="126"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage31.png"/>
+					<Prp name="object left" type="I" value="140"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="430"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.SubTypeTemplateForm.PTProductDimensions_Form.PTProductDimensions_Tabs.tabMain.PTProductDimensions_Tabs_General.PTProductDimensions_Tabs_General.PTProductDimensions_TypeID.LookupSearchCombo"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="43"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.SubTypeTemplateForm.PTProductDimensions_Form.PTProductDimensions_Tabs.tabMain.PTProductDimensions_Tabs_General.PTProductDimensions_Tabs_General.PTProductDimensions_TypeID.LookupSearchCombo&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;SubTypeTemplateForm&quot;).WinFormsObject(&quot;PTProductDimensions.Form&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs&quot;).WinFormsObject(&quot;tabMain&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs.General&quot;).WinFormsObject(&quot;PTProductDimensions.Tabs.General&quot;).WinFormsObject(&quot;PTProductDimensions.TypeID&quot;).WinFormsObject(&quot;LookupSearchCombo&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="245"/>
+			<Prp name="date" type="D" value="44102.5541612963"/>
+		</Node>
+		<Node name="message 69">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5128255556"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="238"/>
+					<Prp name="object bottom" type="I" value="183"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage49.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="272"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.DropDownForm.ComboDropDownControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="69"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 'Publication' was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="68"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Product_FulfilmentProductTypeID.LookupSearchCombo&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Product.FulfilmentProductTypeID&quot;).WinFormsObject(&quot;LookupSearchCombo&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="238"/>
+			<Prp name="date" type="D" value="44102.5545052199"/>
+		</Node>
+		<Node name="message 100">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5131832176"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="154"/>
+					<Prp name="object bottom" type="I" value="300"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="279"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage56.png"/>
+					<Prp name="object left" type="I" value="487"/>
+					<Prp name="click point x" type="I" value="729"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="289"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitleWithoutPrefix.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="100"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="99"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (242, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitleWithoutPrefix.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.PT.Products.Toparea.TitleWithoutPrefix&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="154"/>
+			<Prp name="date" type="D" value="44102.5548512384"/>
+		</Node>
+		<Node name="message 70">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="70"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="And I click on Finish button from Create new product wizard"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="date" type="D" value="44102.5545171528"/>
+		</Node>
+		<Node name="message 82">
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="82"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Same product sub type has been display on product information panel"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="104"/>
+			<Prp name="date" type="D" value="44102.554624919"/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5121809375"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="164"/>
+					<Prp name="object bottom" type="I" value="299"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="278"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="object left" type="I" value="300"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="387"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitlePrefix.txtInner"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="18"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'title' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_395.PTProductWizard_ProductTitle.PTProductWizard_PT_Products_Toparea_TitlePrefix.txtInner&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_395&quot;).WinFormsObject(&quot;PTProductWizard.ProductTitle&quot;).WinFormsObject(&quot;PTProductWizard.PT.Products.Toparea.TitlePrefix&quot;).WinFormsObject(&quot;txtInner&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="164"/>
+			<Prp name="date" type="D" value="44102.5538494213"/>
+		</Node>
+		<Node name="message 53">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44102.5125770139"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="293"/>
+					<Prp name="object bottom" type="I" value="473"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="447"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage36.png"/>
+					<Prp name="object left" type="I" value="181"/>
+					<Prp name="click point x" type="I" value="194"/>
+					<Prp name="object right" type="I" value="561"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="460"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_Sub_Type_Control_1.zAptifyControlBase_Toolbars_Dock_Area_Top"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The bar item was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="52"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Aptify_Shell.PTProductWizard.WizPanels_402.ProductWizard_Products_SubtypesData.ProductWizard_Products_SubtypesData_Sub_Type_Control_1.zAptifyControlBase_Toolbars_Dock_Area_Top.wItems.Item(&quot;SubType&quot;).Items.Item(&quot;New&quot;)&#xA;(Sys.Process(&quot;Aptify Shell&quot;).WinFormsObject(&quot;PTProductWizard&quot;).WinFormsObject(&quot;WizPanels_402&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData&quot;).WinFormsObject(&quot;ProductWizard.Products.SubtypesData.Sub-Type Control.1&quot;).WinFormsObject(&quot;_AptifyControlBase_Toolbars_Dock_Area_Top&quot;).wItems.Item(&quot;SubType&quot;).Items.Item(&quot;New&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="293"/>
+			<Prp name="date" type="D" value="44102.5542573843"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

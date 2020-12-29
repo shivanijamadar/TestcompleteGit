@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 5">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;)&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3263903125"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WinFormsObject&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;)&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="9"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="8"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 24">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="55"/>
+		</Node>
+		<Node name="item 23">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3263914815"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WinFormsObject&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="15"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="14"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="50"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="50"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3263921181"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WinFormsObject&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="17"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="16"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;)&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.326272963"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WinFormsObject&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;)&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 6">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="50"/>
+		</Node>
+		<Node name="item 17">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3263925463"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WinFormsObject&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="19"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="18"/>
+		</Node>
+		<Node name="item 25">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="50"/>
+		</Node>
+		<Node name="item 19">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3263933565"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Click&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="23"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="22"/>
+		</Node>
+		<Node name="item 15">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 20">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="50"/>
+		</Node>
+		<Node name="item 27">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3263937268"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Keys&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="25"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="24"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3261551505"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="44"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Unable to find the object WinFormsObject(&quot;PTCompanyInterests.Form&quot;). See Details for additional information."/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="date" type="D" value="44146.3262725926"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The object with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2202&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Aliases.Aptify_Shell.FormTemplateForm"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="44"/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="50"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="TestProject1\Scenarios\StandingOrder\StandingOrderAlwaysSupply.feature"/>
+			<Prp name="unit 1" type="S" value="{A2BACFB5-4002-46F1-B35F-1200690696CF}"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3263928935"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WinFormsObject&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="21"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="20"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3262733218"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WinFormsObject&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3263910301"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WinFormsObject&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="13"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="12"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 26">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="56"/>
+		</Node>
+		<Node name="item 18">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="50"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Unable to find the object WinFormsObject(&quot;PTCompanyInterests.Form&quot;). See Details for additional information."/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="date" type="D" value="44146.326389919"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The object with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2202&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Aliases.Aptify_Shell.FormTemplateForm"/>
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="6"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3263906713"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WinFormsObject&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="11"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="10"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44146.3263940741"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Keys&quot; method or property of the &quot;WinFormsObject(&quot;PTCompanyInterests.Form&quot;).WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject.WinFormsObject&quot; object that does not exist."/>
+			<Prp name="stack end" type="I" value="27"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="26"/>
+		</Node>
+		<Node name="item 16">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="50"/>
+		</Node>
+		<Node name="item 21">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 22">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="54"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="44"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="And I select Interest Type &quot;Standing Order Sale&quot;"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

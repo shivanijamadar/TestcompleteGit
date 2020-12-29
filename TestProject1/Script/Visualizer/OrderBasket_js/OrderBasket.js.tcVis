@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{10BD6DF1-C427-4182-A99E-9E5DD646087F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3721" kind="0" dateTime="44110.3361574074" objectName="Aliases.Aptify_Shell.SearchForm.searchControl.splitContainer1.SplitterPanel2.searchParameters.radPanelParams.switchPanel.searchButton" objectLeft="996" objectTop="43" objectRight="1071" objectBottom="66" clickPointX="1030" clickPointY="56" imageFileName="tcvi234907359148400.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3723" kind="0" dateTime="44115.4055208333" objectName="Aliases.Aptify_Shell.AptifyShellForm.pnlDisplay.DashboardManager.AptifyDashLayout.AptifyDashboardArea.DashCtrlWrapper.ButtonBar.UltraButton11" objectLeft="321" objectTop="117" objectRight="431" objectBottom="161" clickPointX="373" clickPointY="152" imageFileName="tcvi672893671226840.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4197" kind="0" dateTime="44115.4123726852" objectName="Aliases.Aptify_Shell.AptifyShellForm.pnlDisplay.DashboardManager.AptifyDashLayout.AptifyDashboardArea.DashCtrlWrapper.ButtonBar.UltraButton11" objectLeft="321" objectTop="117" objectRight="431" objectBottom="161" clickPointX="409" clickPointY="150" imageFileName="tcvi67348543724240.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

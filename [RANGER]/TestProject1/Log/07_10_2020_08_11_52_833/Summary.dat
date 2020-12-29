@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="Verifying Brown Pencil and Green Circle icons from the action buttons"/>
+						<Prp name="starttime" type="D" value="44111.3416059028"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="171743"/>
+						<Prp name="duration" type="I" value="171743"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADQANAAxAEMAMAAwADEALQA5ADUAMAAzAC0ANABFADEAOQAtADgAMABDAEIALQBEADEAMQBBADgARgA3ADgARgAxADIAQwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="TestProject"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44111.3416059028"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="171743"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{79A8E13F-2F63-4379-B929-CC6ACCA0708F}"/>
+		<Prp name="testname" type="S" value="Verifying Brown Pencil and Green Circle icons from the action buttons"/>
+		<Prp name="user" type="S" value="Sparkar"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="name" type="S" value="IngentaCommercialApplication"/>
+		<Prp name="host" type="S" value="RANGER"/>
+		<Prp name="stop" type="D" value="44111.3435963194"/>
+		<Prp name="starttime" type="D" value="44111.3415836458"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+	</Node>
+</Nodes>

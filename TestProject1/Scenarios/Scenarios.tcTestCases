@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenarios>
+	<Folder Name="Promotions">
+		<Feature Path="Promotions\AllowMarketingForCompanies_Persons.feature" />
+		<Feature Path="Promotions\CustomerMailing.feature" />
+		<Feature Path="Promotions\CustomerQualification.feature" />
+		<Feature Path="Promotions\ProductsForMarketing.feature" />
+		<Feature Path="Promotions\PromotionOfferDefinitions.feature" />
+		<Feature Path="Promotions\PromotionProductOptions-SingleProduct.feature" />
+		<Feature Path="Promotions\PurchaseInterestMailing.feature" />
+		<Feature Path="Promotions\CampaignTypes.feature" />
+		<Feature Path="Promotions\Mailing Lists --Seed List.feature" />
+		<Feature Path="Promotions\Promotion Product Options - All Products.feature" />
+		<Feature Path="Promotions\Promotion Product Options - Specific Products.feature" />
+		<Feature Path="Promotions\Qualification List_Offer List.feature" />
+	</Folder>
+	<Folder Name="CreatingCustomers">
+		<Feature Path="Creation\CreateNewCompany.feature" />
+		<Feature Path="Creation\CreateNewPerson.feature" />
+		<Feature Path="Creation\CreatePersonLinkedToExistingCompany.feature" />
+		<Feature Path="Creation\CreateCustomerLinkedToExistingPerson.feature" />
+		<Feature Path="Creation\ValidatingCustomerWizard.feature" />
+		<Feature Path="Creation\ValidatingCustomerWizard2.feature" />
+		<Feature Path="Creation\VerifyCustomerContactCards.feature" />
+	</Folder>
+	<Folder Name="CreatingProduct">
+		<Feature Path="CreatingProduct\CreateNewProduct.feature" />
+	</Folder>
+	<Folder Name="OrderBasket">
+		<Feature Path="OrderBasket\OrderBasket_Backorder.feature" />
+		<Feature Path="OrderBasket\OrderBasket_Break the set Made up.feature" />
+		<Feature Path="OrderBasket\OrderBasket_EditLine.feature" />
+		<Feature Path="OrderBasket\OrderBasket_European Not VAT Registered.feature" />
+		<Feature Path="OrderBasket\OrderBasket_European VAT Registered.feature" />
+		<Feature Path="OrderBasket\OrderBasket_MoveInventoryToMakeSets.feature" />
+		<Feature Path="OrderBasket\OrderBasket_Order with one product.feature" />
+		<Feature Path="OrderBasket\OrderBasket_OverseasCompany.feature" />
+		<Feature Path="OrderBasket\OrderBasket_PendingBasket.feature" />
+		<Feature Path="OrderBasket\OrderBasket_Promotions&amp;Orders.feature" />
+		<Feature Path="OrderBasket\OrderBasket_ReserveInventoryToMakeSets.feature" />
+		<Feature Path="OrderBasket\OrderBasket_SetPriceAndInventoryComponents.feature" />
+		<Feature Path="OrderBasket\OrderBasket_Subscription.feature" />
+		<Feature Path="OrderBasket\aOrderBasketUItest.feature" />
+		<Feature Path="OrderBasket\Backorder.feature" />
+		<Feature Path="OrderBasket\ConfirmSetsMade.feature" />
+		<Feature Path="OrderBasket\cOrderBasketDeleteLine.feature" />
+		<Feature Path="OrderBasket\dAddSundryChargeToOrderLine.feature" />
+		<Feature Path="OrderBasket\DataCreation.feature" />
+		<Feature Path="OrderBasket\eEditSundryChargeToOrderLine.feature" />
+		<Feature Path="OrderBasket\hOrderLinePromotions.feature" />
+		<Feature Path="OrderBasket\ImmediateInvoice.feature" />
+		<Feature Path="OrderBasket\iOrderBasketCheckOut.feature" />
+		<Feature Path="OrderBasket\jCreateGratisProduct.feature" />
+		<Feature Path="OrderBasket\nOrderWithMultipleProducts .feature" />
+		<Feature Path="OrderBasket\oOrderWithGratisProduct.feature" />
+		<Feature Path="OrderBasket\OrderBasketInventoryComponentsPriceHeader.feature" />
+		<Feature Path="OrderBasket\OrderBasketNYPInventory.feature" />
+		<Feature Path="OrderBasket\OrderBasketSundryCharges.feature" />
+		<Feature Path="OrderBasket\OrderBasketSundryText.feature" />
+		<Feature Path="OrderBasket\OrderBasketUSCompany.feature" />
+		<Feature Path="OrderBasket\StatementInvoiceDelivery.feature" />
+	</Folder>
+	<Folder Name="Regression">
+		<Feature Path="Regression\Backorders_CopyToSite.feature" />
+		<Feature Path="Regression\Backorders_DeleteFromCustomer.feature" />
+		<Feature Path="Regression\Backorders_DeleteFromProducts.feature" />
+		<Feature Path="Regression\Backorders_Transfer to Product.feature" />
+		<Feature Path="Regression\Backorders_TransferToCustomer.feature" />
+		<Feature Path="Regression\BackordersCopyToCustomer.feature" />
+		<Feature Path="Regression\BackordersCopyToProduct.feature" />
+		<Feature Path="Regression\BackordersEdit.feature" />
+		<Feature Path="Regression\BackordersTransferToSite.feature" />
+		<Feature Path="Regression\CreateCustomerOrderBasket.feature" />
+		<Feature Path="Regression\CreditIntoAdjustments.feature" />
+		<Feature Path="Regression\Order Items - Published Price.feature" />
+		<Feature Path="Regression\Orders- Cash on account payment mode.feature" />
+		<Feature Path="Regression\Orders with Over Limit Account.feature" />
+		<Feature Path="Regression\Orders with Stopped Account.feature" />
+		<Feature Path="Regression\OrderTemporaryStoppedAccount.feature" />
+		<Feature Path="Regression\OverrideCreditStatusCheck.feature" />
+		<Feature Path="Regression\ProductSearchSeriesMode.feature" />
+		<Feature Path="Regression\Proforma.feature" />
+		<Feature Path="Regression\ProformaPayment.feature" />
+		<Feature Path="Regression\Quotation.feature" />
+		<Feature Path="Regression\QuotationPayment.feature" />
+		<Feature Path="Regression\ReleaseStoppedOrders.feature" />
+	</Folder>
+	<Folder Name="Pricing">
+		<Feature Path="Pricing\ApplicableToTab.feature" />
+		<Feature Path="Pricing\DiscountFrame.feature" />
+		<Feature Path="Pricing\OrderCategory.feature" />
+		<Feature Path="Pricing\PriceCategory.feature" />
+		<Feature Path="Pricing\ProductPricing.feature" />
+		<Feature Path="Pricing\TerritoryPrices.feature" />
+		<Feature Path="Pricing\ClassificationTypePrice.feature" />
+		<Feature Path="Pricing\CumulativeBreakPrices.feature" />
+		<Feature Path="Pricing\DiscountPrices.feature" />
+		<Feature Path="Pricing\ExpiredPricesTab.feature" />
+		<Feature Path="Pricing\FuturePriceTab.feature" />
+		<Feature Path="Pricing\QuantityBreakPrices.feature" />
+	</Folder>
+	<Folder Name="StandingOrders">
+		<Feature Path="StandingOrder\StandingOrderAlwaysSupply.feature" />
+		<Feature Path="StandingOrdersValidFromTo.feature" />
+	</Folder>
+</Scenarios>
